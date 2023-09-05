@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landkit</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+            padding: 40px;
+        }
+
+        .header-title{
+            font-size: 26px;
+            color:#0000FF;
+            font-weight: bold;
+        }
+        nav span{
+            margin-right: 30px;
+            font-size: 16px;
+            color: gray;
+        }
+        div button{
+            padding: 10px;
+            background-color:#0000FF ;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            
+        }
+        section main{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        
+        }
+        img{
+            margin-top: 60px;
+        }
+        .main-title{
+            font-size: 50px;
+            color: black;
+            margin-left: 15px;
+            margin-top: 60px;
+        }
+        .spacific-word{
+            color: #0000FF;
+        }
+        .main-subtitle{
+            font-size: 20px;
+            color:#B0C4DE;
+            margin-top: 15px;
+            margin-left: 15px;
+            word-spacing: 4px;
+            align-items: justify;
+            line-height: 29px;
+        }
+        .main-button button{
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #0000FF;
+            color: white;
+            margin-top: 20px;
+            width: 200px;
+            border: none;
+            font-size: 21px;
+            margin-left: 15px;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="header-title">Landkit.</span>
+        </div>
+        <nav>
+            <div>
+                <span>Landings</span>
+                <span>Pages</span>
+                <span>Accounts</span>
+                <span>Documentation</span>
+            </div>
+        </nav>
+        <div>
+            <button>Buy now</button>
+        </div>
+    </header>
+    <section>
+        <main>
+            <div>
+                <img  class="img" src="images/team.png"  align="right" width="500px"  alt="main-banner" >
+            </div>
+                 
+                <div>
+                    <div class="main-title">
+                        Welcome to <span class="spacific-word">Landkit</span><br>
+                        Develop anything.
+                    </div>
+                    <div class="main-subtitle">
+                         Build a beautiful, modern website with flexible<br>
+                         Bootstrap components built from scratch.
+                    </div>
+                    <div class="main-button">
+                        <button>View all pages</button>
+                        <button>Documentation</button>
+                    </div>
+                </div>
+            
+        </main>
+    </section>
+</body>
+</html>
